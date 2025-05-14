@@ -1,0 +1,14 @@
+# Ignore environment config
+.env
+.env.ini
+
+# Ignore common PHP cache/temp/log files
+*.log
+*.cache
+*.tmp
+
+# Ignore OS or IDE specific files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
