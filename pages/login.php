@@ -1,6 +1,6 @@
 <?php
 session_start();
-include_once('includes/config.php');
+include_once('../includes/config.php');
 
 if (isset($_POST['login'])) {
     $emailcon = trim($_POST['logindetail']);
@@ -34,7 +34,7 @@ if (isset($_POST['login'])) {
     <meta name="description" content="" />
     <meta name="author" content="" />
     <title>e-Diary Management System</title>
-    <link href="css/styles.css" rel="stylesheet" />
+    <link href="../css/styles.css" rel="stylesheet" />
     <script src="https://use.fontawesome.com/releases/v6.1.0/js/all.js" crossorigin="anonymous"></script>
 </head>
 
@@ -70,7 +70,7 @@ if (isset($_POST['login'])) {
                                 <div class="card-footer text-center py-3">
                                     <div class="small"><a href="registration.php">Need an account? Sign up!</a></div>
                                     <hr />
-                                    <div class="small"><a href="index.php">Back to Home Page</a></div>
+                                    <div class="small"><a href="../index.php">Back to Home Page</a></div>
                                 </div>
                             </div>
                         </div>
@@ -78,10 +78,10 @@ if (isset($_POST['login'])) {
                 </div>
             </main>
         </div>
-        <?php include_once('includes/footer.php'); ?>
+        <?php include_once('../includes/footer.php'); ?>
     </div>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" crossorigin="anonymous"></script>
-    <script src="js/scripts.js"></script>
+    <script src="../js/scripts.js"></script>
 </body>
 
 </html>

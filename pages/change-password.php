@@ -1,6 +1,6 @@
 <?php
 session_start();
-include_once('includes/config.php');
+include_once('../includes/config.php');
 
 // Redirect if user is not logged in
 if (strlen($_SESSION["edmsid"]) == 0) {
@@ -43,7 +43,7 @@ if (strlen($_SESSION["edmsid"]) == 0) {
         <meta http-equiv="X-UA-Compatible" content="IE=edge" />
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
         <title>e-Diary Management System</title>
-        <link href="css/styles.css" rel="stylesheet" />
+        <link href="../css/styles.css" rel="stylesheet" />
         <script src="https://use.fontawesome.com/releases/v6.1.0/js/all.js" crossorigin="anonymous"></script>
         <script type="text/javascript">
             function valid() {
@@ -58,9 +58,9 @@ if (strlen($_SESSION["edmsid"]) == 0) {
     </head>
 
     <body>
-        <?php include_once('includes/header.php'); ?>
+        <?php include_once('../includes/header.php'); ?>
         <div id="layoutSidenav">
-            <?php include_once('includes/leftbar.php'); ?>
+            <?php include_once('../includes/leftbar.php'); ?>
             <div id="layoutSidenav_content">
                 <main>
                     <div class="container-fluid px-4">
@@ -101,11 +101,11 @@ if (strlen($_SESSION["edmsid"]) == 0) {
                         </div>
                     </div>
                 </main>
-                <?php include_once('includes/footer.php'); ?>
+                <?php include_once('../includes/footer.php'); ?>
             </div>
         </div>
-        <script src="js/bootstrap.bundle.min.js"></script>
-        <script src="js/scripts.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+        <script src="../js/scripts.js"></script>
     </body>
 
     </html>

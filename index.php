@@ -20,11 +20,11 @@
                 <div class="sb-sidenav-menu">
                     <div class="nav">
                         <div class="sb-sidenav-menu-heading">Core</div>
-                        <a class="nav-link" href="registration.php">
+                        <a class="nav-link" href="pages/registration.php">
                             <div class="sb-nav-link-icon"><i class="fa fa-user"></i></div>
                             Registration
                         </a>
-                        <a class="nav-link" href="login.php">
+                        <a class="nav-link" href="pages/login.php">
                             <div class="sb-nav-link-icon"><i class="fa fa-user"></i></div>
                             Login
                         </a>
@@ -43,7 +43,7 @@
                     <div class="card mb-4">
                         <div class="card-body">
                             <p class="mb-0">
-                                <img src="assets/img/banner.jpg" height="550">
+                                <img src="assets/img/diary.jpeg" height="500" width="100%">
                             </p>
                         </div>
                     </div>
